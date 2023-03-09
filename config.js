@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'アニケット',
+	name: 'トンキー', //アニケット
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
