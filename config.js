@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'bd69cdd790565a78ca1cba9e91fc1dbf', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	//weatherKey: 'bd69cdd790565a78ca1cba9e91fc1dbf', // Write here your API Key
+	//weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	//weatherUnit: 'C', // 'F', 'C'
+	//language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	//trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	//defaultLatitude: '37.775',
+	//defaultLongitude: '-122.419',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -78,7 +78,7 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
+			icon: 'reddit',
 			link: 'https://reddit.com',
 		},
 		{
