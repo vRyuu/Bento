@@ -81,22 +81,6 @@ body {
   background-size: cover;
 }
 
-#themeButton {
-  position: absolute;
-  margin: 2em 2em 0 0;
-  right: 0;
-  top: 0;
-  color: var(--fg);
-  border: none;
-  cursor: pointer;
-  background-color: #00000000;
-}
-
-#themeIcon {
-  width: 25px;
-  height: 25px;
-}
-
 .container {
   width: 145vh;
   height: 85vh;
@@ -127,26 +111,11 @@ body {
   justify-content: center;
 }
 
-.weatherBlock {
-  grid-column: 3 / span 2;
-  grid-row: 1 / span 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .date {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-}
-
-.weather {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .clock {
@@ -182,19 +151,6 @@ body {
 .weatherIcon img {
   width: 70px;
   height: 70px;
-}
-
-.weatherValue p {
-  font-size: var(--fg-secondary);
-  font-weight: bolder;
-  margin-left: 15px;
-  color: var(--fg);
-}
-
-.weatherDescription p {
-  font-size: var(--fg-secondary);
-  margin-left: 15px;
-  color: var(--fg);
 }
 
 .reduceGap {
@@ -337,10 +293,6 @@ body {
   .timeBlock {
     grid-row: 1 / span 2;
     grid-column: 1 / span 4;
-  }
-
-  .weatherBlock {
-    display: none;
   }
 
   #greetings {
